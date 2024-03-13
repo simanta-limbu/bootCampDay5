@@ -10,6 +10,8 @@ public class EvenOdd {
 		Scanner scan = new Scanner(System.in);
 		int lowerBound = scan.nextInt();
 		
+		scan.close(); //bug fixed
+		
 		System.out.println("Enter the upper bound: ");
 		int upperBound = scan.nextInt();
 		
