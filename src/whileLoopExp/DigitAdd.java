@@ -9,6 +9,9 @@ public class DigitAdd {
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		
+		System.out.println("The scanner was closed in bug fix.");
+		scan.close();  //addded in bugFix
+		
 		int digitSum = 0;
 		int digit = 0;
 		
